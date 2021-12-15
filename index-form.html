@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style-form.css">
+</head>
+
+<body>
+    <main>
+
+        <form  action="https://formspree.io/f/xgepqdll" method="POST">
+            <section>
+                <div class="col-text">
+                    <h1 class="small">Contact form</h1>
+                </div>
+                <article class="form-control">
+                    <div class="col-fill">
+                        <label for="name-info" class="Name">Full name</label>
+                    </div>
+                    <div class="col-text">
+                        <input type="text" name="name" id="name" placeholder="" required>
+                    </div>
+                </article>
+                <article class="form-control">
+                    <div class="col-fill">
+                        <label for="email-info">Email</label>
+                    </div>
+                    <div class="col-text">
+                        <input type="email" name="email" id="email" placeholder="" required>
+                    </div>
+                </article>
+                <article class="form-control">
+                    <div class="col-fill">
+                        <label for="message-info">Your message</label>
+                    </div>
+                    <div class="col-text">
+                        <textarea name="message" id="message" cols="35" rows="20" required></textarea>
+                    </div>
+                </article>
+            </section>
+            <button type="submit" class="btn" >SUBMIT</button>
+        </form>
+    </main>
+</body>
+
+</html>

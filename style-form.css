@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Potta+One&display=swap');
+
+body{
+    background-color: #f5f6fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*=========================DEFINING MAIN-FORM===============================*/
+
+main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main form h1 {
+    margin-bottom: .4em;
+    font-size: 3rem;
+    text-align: center;  
+}
+
+main form section {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .form-control {
+    margin: 0.4rem 0;  
+    text-align: center;  
+}
+
+form .form-control label {
+    display: block;
+    font-size: 0.8rem;    
+    margin-bottom: .5em;
+}
+
+form .form-control label.inline {
+    display: inline; 
+}
+
+form .btn {
+    background: rgb(204, 204, 204);
+    font-size: 1.5rem;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+/*==========================MEDIA QUERIE===============================*/
+
+@media screen and (max-width: 600px) {
+    .col-fill, .col-text, .button[type=submit]  {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
